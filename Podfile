@@ -12,6 +12,7 @@ target 'GoGo' do
   pod 'Then'
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   pod 'Hero'
+  pod 'KakaoSDK'
 
   # Pods for GoGo
 

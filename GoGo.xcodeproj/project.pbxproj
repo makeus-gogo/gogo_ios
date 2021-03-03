@@ -3,16 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27977C8725EE8A08007D2616 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C8625EE8A08007D2616 /* MainViewController.swift */; };
+		27977C9425EE8D4C007D2616 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C9325EE8D4C007D2616 /* SearchViewController.swift */; };
+		27977C9925EE8D54007D2616 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C9825EE8D54007D2616 /* MyPageViewController.swift */; };
+		2797F21F25E7F22000C78ED4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797F21E25E7F22000C78ED4 /* BaseViewController.swift */; };
 		7852258E87DAEB1AAFF543FD /* Pods_GoGo_GoGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572C1F79895EFC675C2EEC9 /* Pods_GoGo_GoGoUITests.framework */; };
 		80D5DF98E817BECA21E6A60D /* Pods_GoGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F0A770CC46BEDEE1ACE4A4 /* Pods_GoGoTests.framework */; };
 		C6D75CB207CBF47FC26B3CF7 /* Pods_GoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B164F6D10E46C679220B47 /* Pods_GoGo.framework */; };
 		F0FE6CAF25E5085600E4DB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CAE25E5085600E4DB56 /* AppDelegate.swift */; };
 		F0FE6CB125E5085700E4DB56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CB025E5085700E4DB56 /* SceneDelegate.swift */; };
-		F0FE6CB325E5085700E4DB56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CB225E5085700E4DB56 /* ViewController.swift */; };
+		F0FE6CB325E5085700E4DB56 /* BaseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CB225E5085700E4DB56 /* BaseTabViewController.swift */; };
 		F0FE6CB825E5085900E4DB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0FE6CB725E5085900E4DB56 /* Assets.xcassets */; };
 		F0FE6CBB25E5085900E4DB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0FE6CB925E5085900E4DB56 /* LaunchScreen.storyboard */; };
 		F0FE6CC625E5085900E4DB56 /* GoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CC525E5085900E4DB56 /* GoGoTests.swift */; };
@@ -39,6 +43,10 @@
 /* Begin PBXFileReference section */
 		1572C1F79895EFC675C2EEC9 /* Pods_GoGo_GoGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGo_GoGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B351A946BB6B3B65CAC829B /* Pods-GoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo.release.xcconfig"; path = "Target Support Files/Pods-GoGo/Pods-GoGo.release.xcconfig"; sourceTree = "<group>"; };
+		27977C8625EE8A08007D2616 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		27977C9325EE8D4C007D2616 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		27977C9825EE8D54007D2616 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		2797F21E25E7F22000C78ED4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		38F0A770CC46BEDEE1ACE4A4 /* Pods_GoGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		412054F71FBE493D9F2FC2F8 /* Pods-GoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo.debug.xcconfig"; path = "Target Support Files/Pods-GoGo/Pods-GoGo.debug.xcconfig"; sourceTree = "<group>"; };
 		54CAB22C4F82AAABAC89C611 /* Pods-GoGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTests.release.xcconfig"; path = "Target Support Files/Pods-GoGoTests/Pods-GoGoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +55,7 @@
 		F0FE6CAB25E5085600E4DB56 /* GoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0FE6CAE25E5085600E4DB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0FE6CB025E5085700E4DB56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F0FE6CB225E5085700E4DB56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0FE6CB225E5085700E4DB56 /* BaseTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabViewController.swift; sourceTree = "<group>"; };
 		F0FE6CB725E5085900E4DB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0FE6CBA25E5085900E4DB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0FE6CBC25E5085900E4DB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +97,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2797F22325E7F2A300C78ED4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2797F21E25E7F22000C78ED4 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2797F22425E7F2AF00C78ED4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE6CB225E5085700E4DB56 /* BaseTabViewController.swift */,
+				27977C8625EE8A08007D2616 /* MainViewController.swift */,
+				27977C9325EE8D4C007D2616 /* SearchViewController.swift */,
+				27977C9825EE8D54007D2616 /* MyPageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2797F22525E7F2D000C78ED4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2797F22625E7F2D400C78ED4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2FD43D164894745FBC56935C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +150,6 @@
 				ADCF9BD3FDE7B7CC88475ACE /* Pods-GoGoTests.debug.xcconfig */,
 				54CAB22C4F82AAABAC89C611 /* Pods-GoGoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,9 +178,12 @@
 		F0FE6CAD25E5085600E4DB56 /* GoGo */ = {
 			isa = PBXGroup;
 			children = (
+				2797F22625E7F2D400C78ED4 /* Model */,
+				2797F22525E7F2D000C78ED4 /* View */,
+				2797F22425E7F2AF00C78ED4 /* ViewController */,
+				2797F22325E7F2A300C78ED4 /* Base */,
 				F0FE6CAE25E5085600E4DB56 /* AppDelegate.swift */,
 				F0FE6CB025E5085700E4DB56 /* SceneDelegate.swift */,
-				F0FE6CB225E5085700E4DB56 /* ViewController.swift */,
 				F0FE6CB725E5085900E4DB56 /* Assets.xcassets */,
 				F0FE6CB925E5085900E4DB56 /* LaunchScreen.storyboard */,
 				F0FE6CBC25E5085900E4DB56 /* Info.plist */,
@@ -403,9 +446,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0FE6CB325E5085700E4DB56 /* ViewController.swift in Sources */,
+				27977C9425EE8D4C007D2616 /* SearchViewController.swift in Sources */,
+				F0FE6CB325E5085700E4DB56 /* BaseTabViewController.swift in Sources */,
+				27977C9925EE8D54007D2616 /* MyPageViewController.swift in Sources */,
+				2797F21F25E7F22000C78ED4 /* BaseViewController.swift in Sources */,
 				F0FE6CAF25E5085600E4DB56 /* AppDelegate.swift in Sources */,
 				F0FE6CB125E5085700E4DB56 /* SceneDelegate.swift in Sources */,
+				27977C8725EE8A08007D2616 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
