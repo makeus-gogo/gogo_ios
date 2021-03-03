@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2731E26725EFAB7E00CF1254 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731E26625EFAB7E00CF1254 /* SignInViewController.swift */; };
+		2731E26C25EFAB9D00CF1254 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731E26B25EFAB9D00CF1254 /* Api.swift */; };
 		27977C8725EE8A08007D2616 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C8625EE8A08007D2616 /* MainViewController.swift */; };
 		27977C9425EE8D4C007D2616 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C9325EE8D4C007D2616 /* SearchViewController.swift */; };
 		27977C9925EE8D54007D2616 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C9825EE8D54007D2616 /* MyPageViewController.swift */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		1572C1F79895EFC675C2EEC9 /* Pods_GoGo_GoGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGo_GoGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B351A946BB6B3B65CAC829B /* Pods-GoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo.release.xcconfig"; path = "Target Support Files/Pods-GoGo/Pods-GoGo.release.xcconfig"; sourceTree = "<group>"; };
+		2731E26625EFAB7E00CF1254 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2731E26B25EFAB9D00CF1254 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		27977C8625EE8A08007D2616 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		27977C9325EE8D4C007D2616 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		27977C9825EE8D54007D2616 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2797F21E25E7F22000C78ED4 /* BaseViewController.swift */,
+				2731E26B25EFAB9D00CF1254 /* Api.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 				27977C8625EE8A08007D2616 /* MainViewController.swift */,
 				27977C9325EE8D4C007D2616 /* SearchViewController.swift */,
 				27977C9825EE8D54007D2616 /* MyPageViewController.swift */,
+				2731E26625EFAB7E00CF1254 /* SignInViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -446,10 +452,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2731E26C25EFAB9D00CF1254 /* Api.swift in Sources */,
 				27977C9425EE8D4C007D2616 /* SearchViewController.swift in Sources */,
 				F0FE6CB325E5085700E4DB56 /* BaseTabViewController.swift in Sources */,
 				27977C9925EE8D54007D2616 /* MyPageViewController.swift in Sources */,
 				2797F21F25E7F22000C78ED4 /* BaseViewController.swift in Sources */,
+				2731E26725EFAB7E00CF1254 /* SignInViewController.swift in Sources */,
 				F0FE6CAF25E5085600E4DB56 /* AppDelegate.swift in Sources */,
 				F0FE6CB125E5085700E4DB56 /* SceneDelegate.swift in Sources */,
 				27977C8725EE8A08007D2616 /* MainViewController.swift in Sources */,
