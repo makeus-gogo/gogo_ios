@@ -15,21 +15,21 @@ class BaseTabViewConrtoller: BaseViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
-        view.backgroundColor = .green
+        view.backgroundColor = .white
         view.addSubview(tabBarCon.view)
         
         createTabBar()
     }
     
     func createTabBar() {
-        tabBarCon.tabBar.tintColor = .red
+        UITabBar.setTransparentTabbar()
         
-        let mainVC = UINavigationController(rootViewController: MainViewController())
-        mainVC.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 0)
+        let mainVC = UINavigationController(rootViewController: MainTabViewController())
+        mainVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: "home"), selectedImage: UIImage(named: "home_sel"))
         let searchVC = UINavigationController(rootViewController: SearchViewController())
-        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
+        searchVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: "explore"), selectedImage: UIImage(named: "explore_sel"))
         let myPageVC = UINavigationController(rootViewController: MyPageViewController())
-        myPageVC.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 2)
+        myPageVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: "mypage"), selectedImage: UIImage(named: "mypage_sel"))
         
         tabBarCon.viewControllers = [mainVC, searchVC, myPageVC]
     }
