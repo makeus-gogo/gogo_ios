@@ -7,16 +7,18 @@
 
 import UIKit
 import KakaoSDKCommon
+import KakaoSDKAuth
+import KakaoSDKUser
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let clientId = "01a404aabef97ace6b01f9314142e38d"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        KakaoSDKCommon.initSDK(appKey: "b3f3906dc165d771194e40d9a20a0c13")
+        KakaoSDKCommon.initSDK(appKey: clientId)
         return true
     }
 

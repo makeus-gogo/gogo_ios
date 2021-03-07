@@ -7,6 +7,11 @@
 
 import UIKit
 
-class SearchViewController: BaseViewController {
-    
+class SearchViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.isHidden = true
+        self.view.backgroundColor = .white
+    }
 }

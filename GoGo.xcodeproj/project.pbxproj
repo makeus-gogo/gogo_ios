@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		2731E26725EFAB7E00CF1254 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731E26625EFAB7E00CF1254 /* SignInViewController.swift */; };
 		2731E26C25EFAB9D00CF1254 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731E26B25EFAB9D00CF1254 /* Api.swift */; };
-		27977C8725EE8A08007D2616 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C8625EE8A08007D2616 /* MainViewController.swift */; };
+		2731E27A25F125FF00CF1254 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731E27925F125FF00CF1254 /* BaseViewController.swift */; };
+		2731E27F25F129E100CF1254 /* MainCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731E27E25F129E100CF1254 /* MainCollectionCell.swift */; };
+		2731E28425F12A1A00CF1254 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2731E28325F12A1A00CF1254 /* MainTableCell.swift */; };
+		27977C8725EE8A08007D2616 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C8625EE8A08007D2616 /* MainTabViewController.swift */; };
 		27977C9425EE8D4C007D2616 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C9325EE8D4C007D2616 /* SearchViewController.swift */; };
 		27977C9925EE8D54007D2616 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27977C9825EE8D54007D2616 /* MyPageViewController.swift */; };
-		2797F21F25E7F22000C78ED4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2797F21E25E7F22000C78ED4 /* BaseViewController.swift */; };
+		279B25DC25F4B47C00FEAAAE /* SignInData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B25DB25F4B47C00FEAAAE /* SignInData.swift */; };
+		279B260125F4D0E400FEAAAE /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B260025F4D0E400FEAAAE /* UITabBar.swift */; };
+		27B1124625F3A0B00084FB5F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1124525F3A0B00084FB5F /* MainViewController.swift */; };
 		7852258E87DAEB1AAFF543FD /* Pods_GoGo_GoGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572C1F79895EFC675C2EEC9 /* Pods_GoGo_GoGoUITests.framework */; };
 		80D5DF98E817BECA21E6A60D /* Pods_GoGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F0A770CC46BEDEE1ACE4A4 /* Pods_GoGoTests.framework */; };
 		C6D75CB207CBF47FC26B3CF7 /* Pods_GoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B164F6D10E46C679220B47 /* Pods_GoGo.framework */; };
@@ -47,10 +52,15 @@
 		1B351A946BB6B3B65CAC829B /* Pods-GoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo.release.xcconfig"; path = "Target Support Files/Pods-GoGo/Pods-GoGo.release.xcconfig"; sourceTree = "<group>"; };
 		2731E26625EFAB7E00CF1254 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2731E26B25EFAB9D00CF1254 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
-		27977C8625EE8A08007D2616 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2731E27925F125FF00CF1254 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2731E27E25F129E100CF1254 /* MainCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionCell.swift; sourceTree = "<group>"; };
+		2731E28325F12A1A00CF1254 /* MainTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
+		27977C8625EE8A08007D2616 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		27977C9325EE8D4C007D2616 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		27977C9825EE8D54007D2616 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
-		2797F21E25E7F22000C78ED4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		279B25DB25F4B47C00FEAAAE /* SignInData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInData.swift; sourceTree = "<group>"; };
+		279B260025F4D0E400FEAAAE /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		27B1124525F3A0B00084FB5F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		38F0A770CC46BEDEE1ACE4A4 /* Pods_GoGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		412054F71FBE493D9F2FC2F8 /* Pods-GoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo.debug.xcconfig"; path = "Target Support Files/Pods-GoGo/Pods-GoGo.debug.xcconfig"; sourceTree = "<group>"; };
 		54CAB22C4F82AAABAC89C611 /* Pods-GoGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTests.release.xcconfig"; path = "Target Support Files/Pods-GoGoTests/Pods-GoGoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,8 +114,9 @@
 		2797F22325E7F2A300C78ED4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2797F21E25E7F22000C78ED4 /* BaseViewController.swift */,
 				2731E26B25EFAB9D00CF1254 /* Api.swift */,
+				F0FE6CB225E5085700E4DB56 /* BaseTabViewController.swift */,
+				2731E27925F125FF00CF1254 /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -113,11 +124,11 @@
 		2797F22425E7F2AF00C78ED4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F0FE6CB225E5085700E4DB56 /* BaseTabViewController.swift */,
-				27977C8625EE8A08007D2616 /* MainViewController.swift */,
+				27977C8625EE8A08007D2616 /* MainTabViewController.swift */,
 				27977C9325EE8D4C007D2616 /* SearchViewController.swift */,
 				27977C9825EE8D54007D2616 /* MyPageViewController.swift */,
 				2731E26625EFAB7E00CF1254 /* SignInViewController.swift */,
+				27B1124525F3A0B00084FB5F /* MainViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -125,6 +136,8 @@
 		2797F22525E7F2D000C78ED4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2731E27E25F129E100CF1254 /* MainCollectionCell.swift */,
+				2731E28325F12A1A00CF1254 /* MainTableCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,8 +145,17 @@
 		2797F22625E7F2D400C78ED4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				279B25DB25F4B47C00FEAAAE /* SignInData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		279B25FF25F4D0D700FEAAAE /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				279B260025F4D0E400FEAAAE /* UITabBar.swift */,
+			);
+			path = Ext;
 			sourceTree = "<group>";
 		};
 		2FD43D164894745FBC56935C /* Frameworks */ = {
@@ -184,6 +206,7 @@
 		F0FE6CAD25E5085600E4DB56 /* GoGo */ = {
 			isa = PBXGroup;
 			children = (
+				279B25FF25F4D0D700FEAAAE /* Ext */,
 				2797F22625E7F2D400C78ED4 /* Model */,
 				2797F22525E7F2D000C78ED4 /* View */,
 				2797F22425E7F2AF00C78ED4 /* ViewController */,
@@ -453,14 +476,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2731E26C25EFAB9D00CF1254 /* Api.swift in Sources */,
+				279B25DC25F4B47C00FEAAAE /* SignInData.swift in Sources */,
 				27977C9425EE8D4C007D2616 /* SearchViewController.swift in Sources */,
 				F0FE6CB325E5085700E4DB56 /* BaseTabViewController.swift in Sources */,
+				27B1124625F3A0B00084FB5F /* MainViewController.swift in Sources */,
 				27977C9925EE8D54007D2616 /* MyPageViewController.swift in Sources */,
-				2797F21F25E7F22000C78ED4 /* BaseViewController.swift in Sources */,
 				2731E26725EFAB7E00CF1254 /* SignInViewController.swift in Sources */,
+				2731E27A25F125FF00CF1254 /* BaseViewController.swift in Sources */,
 				F0FE6CAF25E5085600E4DB56 /* AppDelegate.swift in Sources */,
 				F0FE6CB125E5085700E4DB56 /* SceneDelegate.swift in Sources */,
-				27977C8725EE8A08007D2616 /* MainViewController.swift in Sources */,
+				2731E27F25F129E100CF1254 /* MainCollectionCell.swift in Sources */,
+				2731E28425F12A1A00CF1254 /* MainTableCell.swift in Sources */,
+				27977C8725EE8A08007D2616 /* MainTabViewController.swift in Sources */,
+				279B260125F4D0E400FEAAAE /* UITabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,12 +658,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UV3Y69NB7;
 				INFOPLIST_FILE = GoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sixThang.GoGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixThang.GoGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -649,12 +678,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UV3Y69NB7;
 				INFOPLIST_FILE = GoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sixThang.GoGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixThang.GoGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
