@@ -8,6 +8,11 @@
 import UIKit
 
 class SearchViewController: UIViewController {
+    
+    lazy var searchTextField = UITextField()
+    lazy var saerchButton = UIButton()
+    lazy var collectionView = UICollectionView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

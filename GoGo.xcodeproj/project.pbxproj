@@ -21,6 +21,10 @@
 		7852258E87DAEB1AAFF543FD /* Pods_GoGo_GoGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572C1F79895EFC675C2EEC9 /* Pods_GoGo_GoGoUITests.framework */; };
 		80D5DF98E817BECA21E6A60D /* Pods_GoGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F0A770CC46BEDEE1ACE4A4 /* Pods_GoGoTests.framework */; };
 		C6D75CB207CBF47FC26B3CF7 /* Pods_GoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B164F6D10E46C679220B47 /* Pods_GoGo.framework */; };
+		F083EEB225F64BC10074A329 /* SearchCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083EEB125F64BC10074A329 /* SearchCollectionCell.swift */; };
+		F083EEB725F663ED0074A329 /* MainCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083EEB625F663ED0074A329 /* MainCollectionView.swift */; };
+		F083EEBC25F664080074A329 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083EEBB25F664080074A329 /* MainTableView.swift */; };
+		F083EEC525F666590074A329 /* UploadMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083EEC425F666590074A329 /* UploadMainViewController.swift */; };
 		F0FE6CAF25E5085600E4DB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CAE25E5085600E4DB56 /* AppDelegate.swift */; };
 		F0FE6CB125E5085700E4DB56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CB025E5085700E4DB56 /* SceneDelegate.swift */; };
 		F0FE6CB325E5085700E4DB56 /* BaseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE6CB225E5085700E4DB56 /* BaseTabViewController.swift */; };
@@ -66,6 +70,10 @@
 		54CAB22C4F82AAABAC89C611 /* Pods-GoGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTests.release.xcconfig"; path = "Target Support Files/Pods-GoGoTests/Pods-GoGoTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D54AA71D71F4DD3D5E72C83 /* Pods-GoGo-GoGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGo-GoGoUITests.release.xcconfig"; path = "Target Support Files/Pods-GoGo-GoGoUITests/Pods-GoGo-GoGoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ADCF9BD3FDE7B7CC88475ACE /* Pods-GoGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTests.debug.xcconfig"; path = "Target Support Files/Pods-GoGoTests/Pods-GoGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F083EEB125F64BC10074A329 /* SearchCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionCell.swift; sourceTree = "<group>"; };
+		F083EEB625F663ED0074A329 /* MainCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionView.swift; sourceTree = "<group>"; };
+		F083EEBB25F664080074A329 /* MainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		F083EEC425F666590074A329 /* UploadMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMainViewController.swift; sourceTree = "<group>"; };
 		F0FE6CAB25E5085600E4DB56 /* GoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0FE6CAE25E5085600E4DB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0FE6CB025E5085700E4DB56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +137,7 @@
 				27977C9825EE8D54007D2616 /* MyPageViewController.swift */,
 				2731E26625EFAB7E00CF1254 /* SignInViewController.swift */,
 				27B1124525F3A0B00084FB5F /* MainViewController.swift */,
+				F083EEC325F6662F0074A329 /* Upload */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 		2797F22525E7F2D000C78ED4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F083EEB625F663ED0074A329 /* MainCollectionView.swift */,
 				2731E27E25F129E100CF1254 /* MainCollectionCell.swift */,
+				F083EEBB25F664080074A329 /* MainTableView.swift */,
 				2731E28325F12A1A00CF1254 /* MainTableCell.swift */,
+				F083EEB125F64BC10074A329 /* SearchCollectionCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +191,14 @@
 				54CAB22C4F82AAABAC89C611 /* Pods-GoGoTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F083EEC325F6662F0074A329 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				F083EEC425F666590074A329 /* UploadMainViewController.swift */,
+			);
+			path = Upload;
 			sourceTree = "<group>";
 		};
 		F0FE6CA225E5085600E4DB56 = {
@@ -483,12 +503,16 @@
 				27977C9925EE8D54007D2616 /* MyPageViewController.swift in Sources */,
 				2731E26725EFAB7E00CF1254 /* SignInViewController.swift in Sources */,
 				2731E27A25F125FF00CF1254 /* BaseViewController.swift in Sources */,
+				F083EEC525F666590074A329 /* UploadMainViewController.swift in Sources */,
 				F0FE6CAF25E5085600E4DB56 /* AppDelegate.swift in Sources */,
 				F0FE6CB125E5085700E4DB56 /* SceneDelegate.swift in Sources */,
 				2731E27F25F129E100CF1254 /* MainCollectionCell.swift in Sources */,
+				F083EEBC25F664080074A329 /* MainTableView.swift in Sources */,
 				2731E28425F12A1A00CF1254 /* MainTableCell.swift in Sources */,
 				27977C8725EE8A08007D2616 /* MainTabViewController.swift in Sources */,
 				279B260125F4D0E400FEAAAE /* UITabBar.swift in Sources */,
+				F083EEB225F64BC10074A329 /* SearchCollectionCell.swift in Sources */,
+				F083EEB725F663ED0074A329 /* MainCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

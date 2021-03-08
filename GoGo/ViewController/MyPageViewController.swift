@@ -8,6 +8,9 @@
 import UIKit
 
 class MyPageViewController: UIViewController {
+    
+    lazy var tableView = UITableView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
